@@ -32,14 +32,12 @@ const getResult = () => {
           diagonal1.push(document.getElementById(`box${j}${i}`).innerHTML);
         }
       }
-    }
-    for (let k = PLAYGROUND_SIZE; k >= 1; k--) {
-      if (i + k === PLAYGROUND_SIZE + 1) {
+      if (i + j === PLAYGROUND_SIZE + 1) {
         if (
-          document.getElementById(`box${i}${k}`).innerHTML ||
-          document.getElementById(`box${i}${k}`).innerHTML != ""
+          document.getElementById(`box${i}${j}`).innerHTML ||
+          document.getElementById(`box${i}${j}`).innerHTML != ""
         ) {
-          diagonal2.push(document.getElementById(`box${i}${k}`).innerHTML);
+          diagonal2.push(document.getElementById(`box${i}${j}`).innerHTML);
         }
       }
     }
