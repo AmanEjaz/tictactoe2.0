@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid;
+}
+
+.main {
+    padding: 18px;
+    min-height: 440px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    border: 1px solid;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.start-btn {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+}
+
+.box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
